@@ -1,0 +1,11 @@
+﻿Console.WriteLine("Введите число А");
+double a = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите число B");
+double b = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите число C");
+double c = double.Parse(Console.ReadLine());
+double max = a;
+if (b>a) max = b;
+if (c>max) max = c;
+Console.Write("Максимальное число = ");
+Console.Write(max);
